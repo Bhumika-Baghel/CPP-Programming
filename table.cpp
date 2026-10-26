@@ -1,7 +1,5 @@
-
 #include <iostream>
 using namespace std;
-
 class Table
 {
 public:
@@ -11,8 +9,7 @@ public:
     {
         for (int i = 1; i <= 10; i++)
         {
-            cout << number << " x " << i
-                 << " = " << number * i << endl;
+            cout << number << " x " << i << " = " << number * i << endl;
         }
     }
 };
